@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <div class="header_top">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/icons8-джип-100.png">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="header_text">
+                        <li><a href="blabla.html">Приобрести</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contact.html">Контактная информация</a></li>
+                    </ul>
+                </nav>
+                <div class="geo">
+                    <button id="geo-btn" class="languagebutton" style="font-size: 80%"><img src="img/icons8-адрес-96.png"><hr></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="sidebar1">
+            <div class="sidebar_text">
+                <b>Тип кузова</b><br>
+                <a>SUV</a><br><br><br>
+                <b>Трансмиссия</b><br>
+                <a>АКПП</a><br><br><br>
+                <b>Количество передач</b><br>
+                <a>8</a><br><br><br>
+                <b>Масса</b><br>
+                <a>2418</a>
+            </div>
+        </div>
+        <div class="sidebar2">
+            <div class="sidebar_text2">
+                <b>Мощность</b><br>
+                <a>717 hp</a><br><br><br>
+                <b>0-100 km/h</b><br>
+                <a>3.7 s</a><br><br><br>
+                <b>Крутящий момент</b><br>
+                <a>868 Nm</a><br><br><br>
+                <b>Максимальная скорость</b><br>
+                <a>290 km/h</a>
+            </div>
+        </div>  
+    </section>
+
+    <!-- Mini window -->
+    <div class="mini-window" id="mini-window">
+        <div class="login-form">
+            <label>Алматы<P>Достык 108</P></label>
+        </div>
+    </div>
+
+    </div>
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var geoButton = document.getElementById('geo-btn');
+            var miniWindow = document.getElementById('mini-window');
+            
+            geoButton.addEventListener('click', function() {
+                miniWindow.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>

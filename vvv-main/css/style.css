@@ -1,0 +1,221 @@
+body {
+    background-image: url('https://www.speednik.com/files/2018/10/hennessey-jeep-trackhawk-named-quickest-suv-in-the-world-2018-10-15_21-01-04_583253.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 0;
+    align-items: center;
+    background-color: #8d8d8dad;
+}
+
+.logo {
+    margin-left: 5vh;
+}
+
+nav ul {
+    display: flex;
+    gap: 10vh;
+}
+
+nav ul li a {
+    color: #000000;
+    font-size: 21px;
+}
+
+nav ul li a:hover {
+    color: #3e3e3e;
+    font-size: 21px;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 2000px;
+    padding: 0 80px;
+}
+
+.header_text {
+    text-align: center;
+    margin-right: 70vh;
+}
+
+.geo button {
+    background-color: transparent;
+    border: none;
+    transform: scale(0.8);
+}
+
+.logo:hover {
+    transform: scale(0.9);
+}
+
+.sidebar1 {
+    margin-left: 5vh;
+    font-size: 3vh;
+    background-color: #8d8d8dad;
+    width: 25vh;
+    height: 60vh;
+    border: none;
+    border-radius: 3vh;
+    display: flex;
+    margin-top: 5vh;
+}
+
+.sidebar_text {
+    margin-left: 1vh;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.sidebar2 {
+    margin-right: 5vh;
+    font-size: 3vh;
+    background-color: #8d8d8dad;
+    width: 25vh;
+    height: 60vh;
+    border: none;
+    border-radius: 3vh;
+    display: flex;
+    margin-top: 5vh;
+}
+
+.sidebar_text2 {
+    margin-top: 3vh;
+    margin-left: 2vh;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar_text a {
+    color: rgb(66, 70, 65);
+}
+
+.sidebar_text2 a {
+    color: rgb(66, 70, 65);
+}  
+
+.info_box {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20vh;
+    margin-top: 10vh;
+    box-shadow: 0 0 10px rgb(66, 70, 65);
+    width: 80%;
+    font-size: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.languagebutton:hover {
+    transform: scale(0.7);
+}
+
+.button_book button {
+    background-color: white;
+    max-width: 230000vh;
+    margin-left: 10vh;
+    margin-top: 12vh;
+    border-radius: 1vh;
+    border: none;
+    padding: 2vh 5vh;
+    cursor: pointer;
+    font-size: 2.5vh;
+    color: black;
+}
+
+.button_book button:hover {
+    transform: scale(1.1);
+    background-color: grey;
+}
+
+.list {
+    margin-top: 3vh;
+}
+
+.list:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.mini-window {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: right 0.3s ease;
+    z-index: 9999;
+    margin-top: 14vh;
+}
+
+.show {
+    right: 0;
+}
+
+.login-form {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #666b70;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #b1b8c0;
+}
+
+.geo:hover button {
+    cursor: pointer;
+}
+
+.login-form {
+    font-weight: bold;
+    font-size: 120%;
+}
